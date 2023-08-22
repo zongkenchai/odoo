@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "bs_mixins_overrides.scss"
+    ],
+    "names": [],
+    "file": "bs_mixins_overrides.css"
+}

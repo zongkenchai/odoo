@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,AAAA,mBAAmB,CAAC,MAAM,CAAC;EACtC,YAAY,EAAE,GAAG;CACpB",
+    "sources": [
+        "mrp_fields.scss"
+    ],
+    "names": [],
+    "file": "mrp_fields.css"
+}

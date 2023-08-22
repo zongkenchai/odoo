@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,uBADmB,CACnB,mBAAmB,CAAC;EAChB,KAAK,EAAE,OAAO;CACjB;;AAHL,AAKI,uBALmB,CAKnB,sBAAsB,CAAC;EACnB,KAAK,EAAE,OAAO;CACjB;;AAPL,AASI,uBATmB,CASnB,cAAc,CAAC;EACX,MAAM,EAAE,QAAQ;EAChB,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;EACX,MAAM,EAAE,iBAAiB;EACzB,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,eAAe;CAC7B",
+    "sources": [
+        "auth_oauth.scss"
+    ],
+    "names": [],
+    "file": "auth_oauth.css"
+}

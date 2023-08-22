@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id = 'menu_crm_2_root'
+        name = "CRM 2"
+        sequence="10"/>
+
+    <menuitem id = 'menu_fact_table'
+        name = "Main"
+        parent = 'menu_crm_2_root'
+        sequence="10"/>
+
+    <menuitem id = 'menu_leads'
+        name = "Leads"
+        parent = 'menu_fact_table'
+        sequence="10"/>
+
+    <menuitem id = 'menu_account_manager'
+        name = "Account Manager"
+        parent = 'menu_fact_table'
+        sequence="10"/>
+        
+    <menuitem id = 'menu_acquisition_manager'
+        name = "Acquisition Manager"
+        parent = 'menu_fact_table'
+        sequence="10"/>
+
+    <!-- <menuitem id = 'menu_partner_category'
+        name = "Acquisition Partner"
+        sequence="10"/>
+
+    <menuitem id = 'menu_partner'
+        name = "Acquisition Partner"
+        sequence="10"/> -->
+
+    
+</odoo>

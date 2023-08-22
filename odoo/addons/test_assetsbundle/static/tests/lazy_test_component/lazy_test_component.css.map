@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,sBAAsB,CAAC;EACnB,gBAAgB,EAAE,OAAiB;CACtC",
+    "sources": [
+        "lazy_test_component.scss"
+    ],
+    "names": [],
+    "file": "lazy_test_component.css"
+}

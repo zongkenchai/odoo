@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,mBAAmB,CAAC;EAChB,qCAAqC,CAAA,UAAC;CACzC",
+    "sources": [
+        "web_editor.common.dark.scss"
+    ],
+    "names": [],
+    "file": "web_editor.common.dark.css"
+}

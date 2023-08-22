@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,AAAA,MAAM,CAAC;EACtB,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "mrp_document_kanban_view.scss"
+    ],
+    "names": [],
+    "file": "mrp_document_kanban_view.css"
+}

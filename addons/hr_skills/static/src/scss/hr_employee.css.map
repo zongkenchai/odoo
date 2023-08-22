@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAC;EACf,OAAO,EAAE,CAAC,CAAC,yBAAyB,CAAA,UAAU;CAUjD;;AAXD,AAEI,kBAFc,AAEb,YAAY,CAAC;EACV,YAAY,EAAE,0BAA0B,CAAA,UAAU;CACrD;;AAJL,AAKI,kBALc,AAKb,WAAW,CAAC;EACT,aAAa,EAAE,0BAA0B,CAAA,UAAU;CACtD;;AAPL,AAQI,kBARc,CAQd,gBAAgB,CAAC;EACb,UAAU,EAAE,MAAM,CAAA,UAAU;CAC/B",
+    "sources": [
+        "hr_employee.scss"
+    ],
+    "names": [],
+    "file": "hr_employee.css"
+}

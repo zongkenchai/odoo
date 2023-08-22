@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEI,YAFQ,CAAC,gCAAgC,CAEzC,0BAA0B,EAF9B,YAAY,CAAC,gCAAgC,CAEb,6BAA6B;AAD7D,mBAAmB,CAAC,gCAAgC,CAChD,0BAA0B;AAD9B,mBAAmB,CAAC,gCAAgC,CACpB,6BAA6B,CAAC;EACtD,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "mailing_filter_widget.scss"
+    ],
+    "names": [],
+    "file": "mailing_filter_widget.css"
+}

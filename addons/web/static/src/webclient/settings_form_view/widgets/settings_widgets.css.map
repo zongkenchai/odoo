@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,oBADgB,CAChB,oBAAoB,CAAC;EACjB,SAAS,EAAE,GAAG;EACd,WAAW,EAAE,GAAG;CACnB;;AAGL,AAAA,WAAW,CAAC;EACR,eAAe,EAAE,IAAI;EACrB,WAAW,EAAE,MAAM;CAOtB;;AATD,AAII,WAJO,AAIN,OAAO,CAAA;EACJ,OAAO,EAAE,OAAO;EAChB,WAAW,EAAE,aAAa;EAC1B,SAAS,EAAE,MAAM;CACpB",
+    "sources": [
+        "settings_widgets.scss"
+    ],
+    "names": [],
+    "file": "settings_widgets.css"
+}

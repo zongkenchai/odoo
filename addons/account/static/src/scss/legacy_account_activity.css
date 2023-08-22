@@ -1,0 +1,12 @@
+.o_journal_activity_kanban {
+  display: block;
+}
+
+.o_journal_activity_kanban .align_activity_center {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 5px;
+}
+/*# sourceMappingURL=legacy_account_activity.css.map */

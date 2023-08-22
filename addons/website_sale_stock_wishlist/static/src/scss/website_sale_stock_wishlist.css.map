@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACZ,UAAU,EAAE,IAAI;CAQnB;;AATD,AAIQ,eAJO,CAGX,KAAK,CACD,CAAC,CAAC;EACE,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "website_sale_stock_wishlist.scss"
+    ],
+    "names": [],
+    "file": "website_sale_stock_wishlist.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,gCAAgC,CAAC;EAE7B,KAAK,EAAE,iBAAiB,CAAC,UAAU;CACtC",
+    "sources": [
+        "event_full_page_ticket_report_pdf.scss"
+    ],
+    "names": [],
+    "file": "event_full_page_ticket_report_pdf.css"
+}

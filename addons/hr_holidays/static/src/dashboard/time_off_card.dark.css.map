@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,eAAe,EAAE,sBAAsB,CAAC;EACpC,yBAAyB,CAAA,wBAAC;CAC7B",
+    "sources": [
+        "time_off_card.dark.scss"
+    ],
+    "names": [],
+    "file": "time_off_card.dark.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC,YAAY,CAAC;EACrB,UAAU,EAAE,UAAU;CACzB",
+    "sources": [
+        "sale_report.scss"
+    ],
+    "names": [],
+    "file": "sale_report.css"
+}

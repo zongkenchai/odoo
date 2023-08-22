@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACE,gCAD8B,CAC5B,IAAI,AAAA,qCAAqC,CAAC,GAAG,CAAC;EAC9C,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAC,CAAC;CACT;;AALH,AAME,gCAN8B,CAM5B,IAAI,AAAA,qCAAqC,AAAA,MAAM,CAAC,GAAG,CAAC;EACpD,OAAO,EAAE,KACX;CAAC",
+    "sources": [
+        "sale_onboarding.scss"
+    ],
+    "names": [],
+    "file": "sale_onboarding.css"
+}

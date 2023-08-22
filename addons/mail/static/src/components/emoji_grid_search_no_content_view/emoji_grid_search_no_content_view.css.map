@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,qCAAqC,CAAC;EAClC,MAAM,EAAE,YAAY;EACpB,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "emoji_grid_search_no_content_view.scss"
+    ],
+    "names": [],
+    "file": "emoji_grid_search_no_content_view.css"
+}

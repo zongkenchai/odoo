@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACZ,QAAQ,EAAE,QAAQ;EAClB,YAAY,EAAE,KAAK;CACtB;;AACD,AAAA,gCAAgC,CAAC;EAC7B,UAAU,EAAE,cAAc;CAC7B;;AACD,AAAA,uBAAuB,CAAC;EACpB,UAAU,EAAE,IAAI;CACnB;;AACD,AAAA,gCAAgC,CAAC;EAC7B,cAAc;EACd,SAAS,EAAE,iBAAiB;EAC5B,KAAK,EAAE,aAAa;CACvB;;AACD,AAAA,+BAA+B,CAAC;EAC5B,cAAc;EACd,SAAS,EAAE,gBAAgB;EAC3B,KAAK,EAAE,aAAa;CACvB",
+    "sources": [
+        "action_swiper.scss"
+    ],
+    "names": [],
+    "file": "action_swiper.css"
+}

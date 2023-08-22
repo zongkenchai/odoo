@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,WADO,CAAC,cAAc,CACtB,KAAK,AAAA,MAAM,EADf,WAAW,CAAC,cAAc,CACT,KAAK,AAAA,KAAK,CAAC;EACpB,OAAO,EAAE,MAAM,CAAC,UAAU;CAC7B",
+    "sources": [
+        "mondialrelay.scss"
+    ],
+    "names": [],
+    "file": "mondialrelay.css"
+}

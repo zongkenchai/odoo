@@ -1,0 +1,19 @@
+.o_EmojiGridRowView {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  height: var(--rowHeight);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.o_EmojiGridRowView_item {
+  max-width: var(--itemWidth);
+  width: var(--itemWidth);
+  cursor: pointer;
+  margin: 1px;
+}
+/*# sourceMappingURL=emoji_grid_row_view.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACC,kBADiB,AAAA,mBAAmB,AAAA,aAAa,AAAA,mBAAmB,CACpE,gBAAgB,CAAC;EACV,KAAK,EAAE,KAAK;CAClB",
+    "sources": [
+        "pos_dashboard.scss"
+    ],
+    "names": [],
+    "file": "pos_dashboard.css"
+}

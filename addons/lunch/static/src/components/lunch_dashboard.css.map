@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,AAAA,OAAO,CAAC;EAClB,OAAO,EAAE,IAAI;CAChB;;AAED,AACI,gBADY,CACZ,sBAAsB,CAAC;EACnB,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "lunch_dashboard.scss"
+    ],
+    "names": [],
+    "file": "lunch_dashboard.css"
+}

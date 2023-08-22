@@ -1,0 +1,7 @@
+.o_blockUI {
+  cursor: wait;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+  z-index: 1070 !important;
+}
+/*# sourceMappingURL=block_ui.css.map */

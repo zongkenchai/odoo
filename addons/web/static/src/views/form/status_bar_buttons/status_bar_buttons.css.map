@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,iCAAiC,CAAC;EAC9B,OAAO,EAAE,CAAC;EACV,aAAa,EAAE,GAAG;CAKrB;;AAPD,AAII,iCAJ6B,CAI7B,MAAM,CAAC;EACH,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "status_bar_buttons.scss"
+    ],
+    "names": [],
+    "file": "status_bar_buttons.css"
+}

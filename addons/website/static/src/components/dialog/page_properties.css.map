@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,oBADgB,CAChB,aAAa,CAAC;EACV,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,OAAO;CACtB",
+    "sources": [
+        "page_properties.scss"
+    ],
+    "names": [],
+    "file": "page_properties.css"
+}

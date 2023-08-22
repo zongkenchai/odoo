@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,kBAAkB,CAAC;EACf,4BAA4B,CAAA,+CAAC;EAC7B,8BAA8B,CAAA,iDAAC;EAC/B,2BAA2B,CAAA,8CAAC;CAC/B",
+    "sources": [
+        "calendar_filter_panel.dark.scss"
+    ],
+    "names": [],
+    "file": "calendar_filter_panel.dark.css"
+}

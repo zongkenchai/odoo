@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,KAAK,AAAA,oBAAoB,CAAC,EAAE,AAAA,WAAW,AAAA,kBAAkB,CAAC;EACtD,WAAW,EAAE,IAAI;EACjB,gBAAgB,EAAE,OAAO;EACzB,UAAU,EAAE,cAAc;EAC1B,aAAa,EAAE,cAAc;CAChC",
+    "sources": [
+        "section_backend.scss"
+    ],
+    "names": [],
+    "file": "section_backend.css"
+}

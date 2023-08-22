@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,4BAA4B,CAAC;EAEzB,WAAW,EAAE,GAAG;CAMnB;;AARD,AAII,4BAJwB,AAIvB,SAAS,CAAC;EACP,GAAG,EAAE,IAAI;EACT,IAAI,EAAE,IAAI;CACb",
+    "sources": [
+        "message_seen_indicator.scss"
+    ],
+    "names": [],
+    "file": "message_seen_indicator.css"
+}

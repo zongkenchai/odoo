@@ -1,0 +1,41 @@
+@-webkit-keyframes o-btn-ripple {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2.5);
+            transform: scale(2.5);
+  }
+}
+
+@keyframes o-btn-ripple {
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2.5);
+            transform: scale(2.5);
+  }
+}
+
+.o_ripple_item {
+  display: none;
+  position: absolute;
+  z-index: -1;
+  border-radius: 100%;
+  opacity: .3;
+  background: currentColor;
+  pointer-events: none;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.o_js_ripple_effect {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.o_js_ripple_effect .o_ripple_item {
+  display: block;
+  -webkit-animation: o-btn-ripple ease-in;
+          animation: o-btn-ripple ease-in;
+}
+/*# sourceMappingURL=ripple_effect.css.map */

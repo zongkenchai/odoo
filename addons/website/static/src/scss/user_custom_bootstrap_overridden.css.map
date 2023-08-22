@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "user_custom_bootstrap_overridden.scss"
+    ],
+    "names": [],
+    "file": "user_custom_bootstrap_overridden.css"
+}

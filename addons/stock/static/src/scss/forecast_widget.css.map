@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,uBAAuB,CAAC;EACpB,UAAU,EAAE,KAAK;EACjB,aAAa,EAAE,IAAI,CAAA,UAAU;CAKhC;;AAPD,AAII,uBAJmB,CAInB,MAAM,CAAC;EACH,QAAQ,EAAE,QAAQ;CACrB",
+    "sources": [
+        "forecast_widget.scss"
+    ],
+    "names": [],
+    "file": "forecast_widget.css"
+}

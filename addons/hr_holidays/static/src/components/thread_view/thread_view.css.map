@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,yBAAyB,CAAC;EACtB,UAAU,EAAE,CAAC;EACb,aAAa,EAAE,CAAC;CACnB",
+    "sources": [
+        "thread_view.scss"
+    ],
+    "names": [],
+    "file": "thread_view.css"
+}

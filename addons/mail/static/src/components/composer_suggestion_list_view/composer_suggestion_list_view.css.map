@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,kCAAkC,CAAC;EAG/B,UAAU,EAAE,KAAK;CACpB",
+    "sources": [
+        "composer_suggestion_list_view.scss"
+    ],
+    "names": [],
+    "file": "composer_suggestion_list_view.css"
+}

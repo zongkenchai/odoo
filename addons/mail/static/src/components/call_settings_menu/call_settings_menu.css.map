@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,yCAAyC,CAAC;EACtC,SAAS,EAAE,CAAC;CACf",
+    "sources": [
+        "call_settings_menu.scss"
+    ],
+    "names": [],
+    "file": "call_settings_menu.css"
+}

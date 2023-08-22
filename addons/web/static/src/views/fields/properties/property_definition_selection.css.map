@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,2BADuB,CACvB,KAAK,CAAC;EACF,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,WAAW;CAC1B;;AAJL,AAKI,2BALuB,CAKvB,QAAQ;AALZ,2BAA2B,CAMvB,UAAU,CAAC;EACP,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "property_definition_selection.scss"
+    ],
+    "names": [],
+    "file": "property_definition_selection.css"
+}

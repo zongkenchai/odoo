@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,gCAAgC,CAAC;EAC7B,SAAS,EAAE,KAAK;CACnB;;AAED,AAAA,sBAAsB,CAAC;EACnB,SAAS,EAAE,sBAAsB;CACpC",
+    "sources": [
+        "call_systray_menu.scss"
+    ],
+    "names": [],
+    "file": "call_systray_menu.css"
+}

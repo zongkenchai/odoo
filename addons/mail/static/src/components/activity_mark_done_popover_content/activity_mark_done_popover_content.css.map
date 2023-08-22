@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,0CAA0C,CAAC;EACvC,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "activity_mark_done_popover_content.scss"
+    ],
+    "names": [],
+    "file": "activity_mark_done_popover_content.css"
+}

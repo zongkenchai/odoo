@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,qCAAqC,CAAC;EAClC,KAAK,EAAE,KAAK;CACf;;AAED,AAAA,0CAA0C,CAAC;EACvC,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,GAAG;CACd;;AAMD,AAAA,0CAA0C,CAAC;EACvC,WAAW,EAAE,IAAI;CACpB;;AAED,AAAA,0CAA0C,CAAC;EACvC,MAAM,EAAE,cAAc;CACzB",
+    "sources": [
+        "call_invite_request_popup.scss"
+    ],
+    "names": [],
+    "file": "call_invite_request_popup.css"
+}

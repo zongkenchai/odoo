@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,iBAAiB,CAAC,gBAAgB,AAAA,MAAM,CAAC;EACrC,KAAK,EAAE,OAAO;CACjB",
+    "sources": [
+        "timesheets_task_form.scss"
+    ],
+    "names": [],
+    "file": "timesheets_task_form.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEQ,sBAFc,CAClB,gBAAgB,CACZ,aAAa,CAAC;EACV,UAAU,EAAE,KAAK;CACpB;;AAIT,AAEI,YAFQ,CAAC,QAAQ,CAEjB,iCAAiC,CAAC;EAC9B,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,SAAS;CACpB",
+    "sources": [
+        "im_livechat_form.scss"
+    ],
+    "names": [],
+    "file": "im_livechat_form.css"
+}

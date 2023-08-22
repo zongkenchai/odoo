@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,wBAAwB,CAAC;EACrB,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "journal_dashboard_graph_field.scss"
+    ],
+    "names": [],
+    "file": "journal_dashboard_graph_field.css"
+}

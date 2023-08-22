@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,IADA,AAAA,cAAc,CACd,kBAAkB,EADtB,IAAI,AAAA,cAAc,CACM,gBAAgB,CAAC;EACjC,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "website_livechat.edit_mode.scss"
+    ],
+    "names": [],
+    "file": "website_livechat.edit_mode.css"
+}

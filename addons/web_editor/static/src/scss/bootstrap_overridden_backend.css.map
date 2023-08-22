@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "bootstrap_overridden_backend.scss"
+    ],
+    "names": [],
+    "file": "bootstrap_overridden_backend.css"
+}

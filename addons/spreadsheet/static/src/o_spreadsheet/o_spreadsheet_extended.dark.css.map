@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AACE,cADY,CACZ,cAAc,CAAC;EACX,gBAAgB,EAAE,eAAe;CACpC;;AAHH,AAIE,cAJY,CAIZ,aAAa,CAAC,MAAM,CAAC;EACjB,gBAAgB,EAAE,eAAe;EACjC,KAAK,EAAE,eAAe;CACzB;;AAPH,AAQE,cARY,CAQZ,4BAA4B,CAAC;EACzB,UAAU,EAAE,kBAAkB;EAC9B,YAAY,EAAE,kBAAkB;CACnC;;AAXH,AAYE,cAZY,CAYZ,KAAK,CAAC;EACF,KAAK,EAAE,eAAe;CACzB;;AAdH,AAeE,cAfY,CAeZ,QAAQ,CAAC;EACL,KAAK,EAAE,eAAe;CACzB;;AAjBH,AAkBE,cAlBY,CAkBZ,mBAAmB,CAAC;EAChB,UAAU,EAAE,kBAAkB;EAC9B,YAAY,EAAE,kBAAkB;CACnC",
+    "sources": [
+        "o_spreadsheet_extended.dark.scss"
+    ],
+    "names": [],
+    "file": "o_spreadsheet_extended.dark.css"
+}

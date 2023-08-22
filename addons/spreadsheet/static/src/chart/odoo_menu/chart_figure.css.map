@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,aADS,CACT,kBAAkB,CAAC;EACf,YAAY,EAAE,GAAG;CACpB;;AAHL,AAKI,aALS,CAKT,sBAAsB,CAAC;EACnB,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "chart_figure.scss"
+    ],
+    "names": [],
+    "file": "chart_figure.css"
+}

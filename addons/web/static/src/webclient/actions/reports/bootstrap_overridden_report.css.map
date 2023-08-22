@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "bootstrap_overridden_report.scss"
+    ],
+    "names": [],
+    "file": "bootstrap_overridden_report.css"
+}

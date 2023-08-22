@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "pos_variables_extra.scss"
+    ],
+    "names": [],
+    "file": "pos_variables_extra.css"
+}

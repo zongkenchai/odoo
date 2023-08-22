@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,wCAAwC,CAAC;EACrC,SAAS,EAAE,KAAK;CACnB;;AAMD,AAAA,wCAAwC,CAAC;EACrC,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "chat_window_hidden_menu_item.scss"
+    ],
+    "names": [],
+    "file": "chat_window_hidden_menu_item.css"
+}

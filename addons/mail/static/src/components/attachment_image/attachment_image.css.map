@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,kBAAkB,CAAC;EACf,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,IAAI;CAKnB;;AAPD,AAII,kBAJc,CAId,GAAG,CAAC;EACA,UAAU,EAAE,OAAO;CACtB;;AAOL,AAAA,kBAAkB,CAAC;EACf,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "attachment_image.scss"
+    ],
+    "names": [],
+    "file": "attachment_image.css"
+}

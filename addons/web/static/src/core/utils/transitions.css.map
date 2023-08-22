@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;GAEG;AAEH;;;;;GAKG",
+    "sources": [
+        "transitions.scss"
+    ],
+    "names": [],
+    "file": "transitions.css"
+}

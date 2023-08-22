@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,AAAA,aAAa,CAAA,AAAA,IAAC,CAAK,iCAAiC,AAAtC,EAAwC;EACtD,SAAS,EAAE,gBAAgB;EAC3B,QAAQ,EAAE,MAAM;CACnB",
+    "sources": [
+        "google_gmail.scss"
+    ],
+    "names": [],
+    "file": "google_gmail.css"
+}

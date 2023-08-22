@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC,SAAS,CAAC;EAClB,KAAK,EAAE,iBAAiB;CAC3B;;AACD,AAAA,WAAW,CAAC,SAAS,CAAC;EAClB,KAAK,EAAE,kBAAkB;CAC5B;;AACD,AAAA,WAAW,AAAA,YAAY,CAAC,SAAS,CAAC;EAC9B,KAAK,EAAE,oBAAoB;CAC9B;;AACD,AAAA,WAAW,AAAA,YAAY,CAAC,SAAS,CAAC;EAC9B,KAAK,EAAE,kBAAkB;CAC5B",
+    "sources": [
+        "ace.scss"
+    ],
+    "names": [],
+    "file": "ace.css"
+}

@@ -1,0 +1,30 @@
+.s_tabs[data-vcss="001"] .s_tabs_content.s_tabs_slide_up > .tab-pane.fade, .s_tabs[data-vcss="001"] .s_tabs_content.s_tabs_slide_down > .tab-pane.fade, .s_tabs[data-vcss="001"] .s_tabs_content.s_tabs_slide_left > .tab-pane.fade, .s_tabs[data-vcss="001"] .s_tabs_content.s_tabs_slide_right > .tab-pane.fade {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.s_tabs[data-vcss="001"] .s_tabs_content.s_tabs_slide_up > .tab-pane.fade.show, .s_tabs[data-vcss="001"] .s_tabs_content.s_tabs_slide_down > .tab-pane.fade.show, .s_tabs[data-vcss="001"] .s_tabs_content.s_tabs_slide_left > .tab-pane.fade.show, .s_tabs[data-vcss="001"] .s_tabs_content.s_tabs_slide_right > .tab-pane.fade.show {
+  -webkit-transform: translateX(0rem) translateY(0rem);
+          transform: translateX(0rem) translateY(0rem);
+}
+
+.s_tabs[data-vcss="001"] .s_tabs_content.s_tabs_slide_up > .tab-pane.fade {
+  -webkit-transform: translateY(-1rem);
+          transform: translateY(-1rem);
+}
+
+.s_tabs[data-vcss="001"] .s_tabs_content.s_tabs_slide_down > .tab-pane.fade {
+  -webkit-transform: translateY(1rem);
+          transform: translateY(1rem);
+}
+
+.s_tabs[data-vcss="001"] .s_tabs_content.s_tabs_slide_left > .tab-pane.fade {
+  -webkit-transform: translateX(-1rem);
+          transform: translateX(-1rem);
+}
+
+.s_tabs[data-vcss="001"] .s_tabs_content.s_tabs_slide_right > .tab-pane.fade {
+  -webkit-transform: translateX(1rem);
+          transform: translateX(1rem);
+}
+/*# sourceMappingURL=001.css.map */

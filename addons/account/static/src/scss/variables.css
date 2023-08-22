@@ -1,0 +1,23 @@
+@-webkit-keyframes animate-red {
+  0% {
+    color: red;
+  }
+  100% {
+    color: inherit;
+  }
+}
+
+@keyframes animate-red {
+  0% {
+    color: red;
+  }
+  100% {
+    color: inherit;
+  }
+}
+
+.animate {
+  -webkit-animation: animate-red 1s ease;
+          animation: animate-red 1s ease;
+}
+/*# sourceMappingURL=variables.css.map */

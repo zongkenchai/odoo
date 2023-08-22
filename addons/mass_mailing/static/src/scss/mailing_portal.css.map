@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAII,sBAJkB,CAIlB,YAAY;AAJhB,sBAAsB,CAKlB,cAAc,AAAA,IAAK,CAAA,gBAAgB,CAAC,IAAK,CAAA,cAAc;AAL3D,sBAAsB,CAMlB,cAAc,AAAA,eAAe,AAAA,IAAK,CAAA,cAAc,EAAE;EAChD,cAAc,EAAE,SAAS;CAC1B;;AARL,AAUI,sBAVkB,CAUlB,mCAAmC,CAAC;EAChC,WAAW,EAAE,IAAI;EACjB,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,GAAG;CACjB",
+    "sources": [
+        "mailing_portal.scss"
+    ],
+    "names": [],
+    "file": "mailing_portal.css"
+}

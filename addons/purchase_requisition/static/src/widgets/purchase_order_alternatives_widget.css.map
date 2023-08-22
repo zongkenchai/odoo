@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,0BAA0B,CAAC;EACvB,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "purchase_order_alternatives_widget.scss"
+    ],
+    "names": [],
+    "file": "purchase_order_alternatives_widget.css"
+}

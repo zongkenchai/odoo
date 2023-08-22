@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,wBAAwB,CAAC;EACrB,SAAS,EAAE,KAAK;CACnB",
+    "sources": [
+        "kanban_properties_field.scss"
+    ],
+    "names": [],
+    "file": "kanban_properties_field.css"
+}

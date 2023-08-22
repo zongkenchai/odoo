@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,yBAAyB,CAAC;EACtB,mBAAmB,CAAA,wCAAC;CACvB",
+    "sources": [
+        "configurator.dark.scss"
+    ],
+    "names": [],
+    "file": "configurator.dark.css"
+}

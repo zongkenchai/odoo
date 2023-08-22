@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA;;;;;;;;EAQE;AAEF,AAAA,SAAS,CAAC,MAAM,CAAC;EACb,GAAG,EAAE,CAAC;CACT",
+    "sources": [
+        "website_slides_survey_result.scss"
+    ],
+    "names": [],
+    "file": "website_slides_survey_result.css"
+}

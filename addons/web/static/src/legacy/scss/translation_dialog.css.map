@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AACI,qBADiB,CACjB,mBAAmB,CAAC;EAChB,WAAW,EAAE,IAAI;CACpB;;AAHL,AAKI,qBALiB,CAKjB,IAAI,CAAC;EACD,aAAa,EAAE,GAAG;CACrB",
+    "sources": [
+        "translation_dialog.scss"
+    ],
+    "names": [],
+    "file": "translation_dialog.css"
+}

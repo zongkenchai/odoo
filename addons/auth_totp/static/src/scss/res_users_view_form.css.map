@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,eAAe,CAAC;EACZ,SAAS,EAAE,KAAK;CACnB",
+    "sources": [
+        "res_users_view_form.scss"
+    ],
+    "names": [],
+    "file": "res_users_view_form.css"
+}

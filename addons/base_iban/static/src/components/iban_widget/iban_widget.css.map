@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAGI,YAHQ,CAGR,OAAO,CAAC;EACJ,OAAO,EAAE,WAAW;EACpB,WAAW,EAAE,KAAK;CACrB;;AANL,AAOI,YAPQ,CAOR,YAAY,CAAC;EACT,MAAM,EAAE,IAAI;CACf;;AATL,AAUI,YAVQ,CAUR,KAAK,AAAA,QAAQ,AAAA,4BAA4B,CAAC;EACtC,aAAa,EAAE,IAAI,CAAA,UAAU;CAChC",
+    "sources": [
+        "iban_widget.scss"
+    ],
+    "names": [],
+    "file": "iban_widget.css"
+}

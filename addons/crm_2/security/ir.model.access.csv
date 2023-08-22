@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+crm_2.access_crm2_leads,access_crm2_leads,crm_2.model_crm2_leads,base.group_user,1,1,1,1
+crm_2.access_crm2_account_manager,access_crm2_account_manager,crm_2.model_crm2_account_manager,base.group_user,1,1,1,1
+crm_2.access_crm2_acquisition_manager,access_crm2_acquisition_manager,crm_2.model_crm2_acquisition_manager,base.group_user,1,1,1,1

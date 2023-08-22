@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAGI,YAHQ,CAEV,iBAAiB,CACf,0BAA0B;AAH9B,YAAY,CAEV,iBAAiB,CAEf,8BAA8B,CAAC;EAC7B,YAAY,EAAE,EAAE;CACjB;;AANL,AAUI,YAVQ,AAST,gBAAgB,CAAC,iBAAiB,CACjC,0BAA0B,CAAC;EACzB,KAAK,EAAE,GAAG;CACX;;AAZL,AAcI,YAdQ,AAST,gBAAgB,CAAC,iBAAiB,CAKjC,8BAA8B,CAAC;EAC7B,KAAK,EAAE,GAAG;EACV,YAAY,EAAE,CAAC;CAChB",
+    "sources": [
+        "form_view.scss"
+    ],
+    "names": [],
+    "file": "form_view.css"
+}

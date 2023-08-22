@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,mCAAmC,CAAC;EAChC,MAAM,EAAE,OAAO;CAMlB;;AAPD,AAGI,mCAH+B,CAG/B,2BAA2B,CAAC;EACxB,eAAe,EAAE,KAAK;EACtB,mBAAmB,EAAE,MAAM;CAC9B",
+    "sources": [
+        "website_slides_profile.scss"
+    ],
+    "names": [],
+    "file": "website_slides_profile.css"
+}

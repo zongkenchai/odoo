@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,gDAAgD,CAAC;EAC7C,UAAU,EAAE,KAAK;CACpB;;AAED,AAAA,yDAAyD,CAAC;EACtD,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,8CAA8C,CAAC;EAC3C,SAAS,EAAE,CAAC;CACf",
+    "sources": [
+        "channel_invitation_form_selectable_partner.scss"
+    ],
+    "names": [],
+    "file": "channel_invitation_form_selectable_partner.css"
+}

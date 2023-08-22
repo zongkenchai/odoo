@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,0BAA0B,CAAC;EACvB,OAAO,EAAE,KAAK;CAMjB;;AAPD,AAEI,0BAFsB,CAEtB,sBAAsB,CAAC;EACnB,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,GAAG;CACrB",
+    "sources": [
+        "legacy_account_activity.scss"
+    ],
+    "names": [],
+    "file": "legacy_account_activity.css"
+}

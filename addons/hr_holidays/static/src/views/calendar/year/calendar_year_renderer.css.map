@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAGY,mBAHO,CACf,kBAAkB,CACd,oBAAoB,CAChB,eAAe,CAAC;EACZ,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,OAAO;EAClB,MAAM,EAAE,OAAO;EACf,cAAc,EAAE,MAAM;EAEtB,WAAW,EAAE,KAAK;CACrB",
+    "sources": [
+        "calendar_year_renderer.scss"
+    ],
+    "names": [],
+    "file": "calendar_year_renderer.css"
+}

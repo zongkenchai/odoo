@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,yBADqB,CACrB,oBAAoB,CAAC,GAAG,AAAA,SAAS,CAAC;EAC9B,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "crm_team_member_views.scss"
+    ],
+    "names": [],
+    "file": "crm_team_member_views.css"
+}

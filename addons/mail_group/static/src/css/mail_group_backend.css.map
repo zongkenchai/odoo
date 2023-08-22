@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,0BADsB,AAAA,gBAAgB,CACtC,QAAQ,CAAC,EAAE,CAAC,EAAE,CAAC;EACX,SAAS,EAAE,KAAK;CACnB;;AAGL,AAAA,iBAAiB,CAAC;EACd,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "mail_group_backend.scss"
+    ],
+    "names": [],
+    "file": "mail_group_backend.css"
+}

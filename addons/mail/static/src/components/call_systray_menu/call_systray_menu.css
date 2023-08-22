@@ -1,0 +1,9 @@
+.o_CallSystrayMenu_buttonContent {
+  max-width: 150px;
+}
+
+.o_CallSystrayMenu_dot {
+  -webkit-animation: flash 3s ease infinite;
+          animation: flash 3s ease infinite;
+}
+/*# sourceMappingURL=call_systray_menu.css.map */

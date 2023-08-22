@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,MAAM,EAAE,UAAU;EAClB,OAAO,EAAE,CAAC;CAKb;;AAPD,AAII,WAJO,AAIN,kBAAkB,CAAC;EAChB,YAAY,EAAE,GAAG;CACpB",
+    "sources": [
+        "drop_zone.scss"
+    ],
+    "names": [],
+    "file": "drop_zone.css"
+}

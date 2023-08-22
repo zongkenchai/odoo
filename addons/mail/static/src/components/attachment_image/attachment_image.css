@@ -1,0 +1,15 @@
+.o_AttachmentImage {
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.o_AttachmentImage img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.o_AttachmentImage {
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+/*# sourceMappingURL=attachment_image.css.map */

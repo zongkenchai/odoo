@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_crm2_account_manager_form" model="ir.ui.view">
+        <field name="name">crm2.account_manager.form</field>
+        <field name="model">crm2.account_manager</field>
+        <field name="arch" type='xml'>
+            <form>
+                <sheet>
+                    <group>
+                        <field name='first_name'/>
+                        <field name='last_name'/>
+                        <field name='full_name'/>
+                        <field name='is_active'/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_crm2_account_manager_tree" model="ir.ui.view">
+        <field name="name">crm2.account_manager.tree</field>
+        <field name="model">crm2.account_manager</field>
+        <field name="arch" type='xml'>
+            <tree string='Leads' sample='1' multi_edit='1'>
+                <field name='first_name'/>
+                <field name='last_name'/>
+                <field name='full_name'/>
+                <field name='is_active'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_crm2_account_manager" model="ir.actions.act_window">
+        <field name="name">Account Manager</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">crm2.account_manager</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id = 'menu_account_manager'
+        name = "Account Manager"
+        parent = 'menu_fact_table'
+        action = 'action_crm2_account_manager'
+        sequence="10"/>
+</odoo>

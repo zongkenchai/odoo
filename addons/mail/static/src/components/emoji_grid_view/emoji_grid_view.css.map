@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,0BAA0B,CAAC;EACvB,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,MAAM;CACrB;;AAED,AAAA,qBAAqB,CAAC;EAClB,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,UAAU;CAC9B;;AAED,AAAA,0BAA0B,CAAC;EACvB,QAAQ,EAAE,QAAQ;CACrB",
+    "sources": [
+        "emoji_grid_view.scss"
+    ],
+    "names": [],
+    "file": "emoji_grid_view.css"
+}

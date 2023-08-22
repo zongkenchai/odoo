@@ -1,0 +1,5 @@
+.o_EmojiCategoryView:not(.active) {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+/*# sourceMappingURL=emoji_category_view.css.map */

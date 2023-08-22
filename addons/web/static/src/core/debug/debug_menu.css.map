@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,SADK,CACL,gBAAgB,CAAC,gBAAgB,CAAC;EAC9B,OAAO,EAAE,KAAK;EACd,MAAM,EAAE,cAAc;CACzB",
+    "sources": [
+        "debug_menu.scss"
+    ],
+    "names": [],
+    "file": "debug_menu.css"
+}

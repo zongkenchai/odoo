@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,oBAAoB,CAAC;EACjB,OAAO,EAAE,MAAM;CAClB",
+    "sources": [
+        "notification_message_view.scss"
+    ],
+    "names": [],
+    "file": "notification_message_view.css"
+}

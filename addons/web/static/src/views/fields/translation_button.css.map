@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,YAAY,CAAC,kBAAkB,CAAC;EAC5B,WAAW,EAAE,KAAK;EAClB,OAAO,EAAE,OAAO;EAChB,UAAU,EAAE,KAAK;EACjB,KAAK,EAAE,IAAI;EACX,cAAc,EAAE,GAAG;CACtB",
+    "sources": [
+        "translation_button.scss"
+    ],
+    "names": [],
+    "file": "translation_button.css"
+}

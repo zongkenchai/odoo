@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "user_custom_rules.scss"
+    ],
+    "names": [],
+    "file": "user_custom_rules.css"
+}

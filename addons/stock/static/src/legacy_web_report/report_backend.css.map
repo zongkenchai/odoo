@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,CAAC;EACN,KAAK,EAAE,CAAC;EACR,MAAM,EAAE,CAAC;EACT,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,iBAAiB,CAAC;EACd,OAAO,EAAE,YAAY;CACxB",
+    "sources": [
+        "report_backend.scss"
+    ],
+    "names": [],
+    "file": "report_backend.css"
+}

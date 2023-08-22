@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,6BADyB,CACzB,kCAAkC;AADtC,6BAA6B,CAEzB,8BAA8B;AAFlC,6BAA6B,CAGzB,oBAAoB,CAAC;EACjB,OAAO,EAAE,IAAI;CAChB;;AAGL,AAEQ,iBAFS,AACZ,gBAAgB,CACb,cAAc,AAAA,MAAM,CAAC;EACjB,UAAU,EAAE,KAAK;CACpB;;AAJT,AAQQ,iBARS,AAOZ,gBAAgB,CACb,SAAS,CAAC;EACN,SAAS,EAAE,KAAK;CACnB",
+    "sources": [
+        "hr_applicant.scss"
+    ],
+    "names": [],
+    "file": "hr_applicant.css"
+}

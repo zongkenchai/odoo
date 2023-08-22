@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAEQ,gBAFQ,CACZ,kBAAkB,AACb,iBAAiB,EAF1B,gBAAgB,CACZ,kBAAkB,AACO,mBAAmB,CAAE;EACtC,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "lunch_kanban.scss"
+    ],
+    "names": [],
+    "file": "lunch_kanban.css"
+}

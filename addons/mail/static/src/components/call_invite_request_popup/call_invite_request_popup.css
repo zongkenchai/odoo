@@ -1,0 +1,20 @@
+.o_CallInviteRequestPopup_partnerInfo {
+  width: 130px;
+}
+
+.o_CallInviteRequestPopup_partnerInfoImage {
+  width: 70%;
+  height: 70%;
+}
+
+.o_CallInviteRequestPopup_buttonListButton {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.o_CallInviteRequestPopup_partnerInfoImage {
+  border: 3px solid gray;
+}
+/*# sourceMappingURL=call_invite_request_popup.css.map */

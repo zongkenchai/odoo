@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAA,iCAAiC,CAAC;EACnC,SAAS,EAAE,IAAI;CAClB",
+    "sources": [
+        "res_config_settings.scss"
+    ],
+    "names": [],
+    "file": "res_config_settings.css"
+}

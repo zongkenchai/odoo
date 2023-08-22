@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "search_panel.variables.scss"
+    ],
+    "names": [],
+    "file": "search_panel.variables.css"
+}

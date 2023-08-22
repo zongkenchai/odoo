@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,4BAA4B,GAAG,IAAI,CAAC;EAChC,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "project_sharing_frontend.scss"
+    ],
+    "names": [],
+    "file": "project_sharing_frontend.css"
+}

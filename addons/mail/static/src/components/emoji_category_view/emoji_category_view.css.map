@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,oBAAoB,AAAA,IAAK,CAAA,OAAO,EAAE;EAC9B,MAAM,EAAE,YAAY;CACvB",
+    "sources": [
+        "emoji_category_view.scss"
+    ],
+    "names": [],
+    "file": "emoji_category_view.css"
+}

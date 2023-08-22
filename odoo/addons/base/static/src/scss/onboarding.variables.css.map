@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "onboarding.variables.scss"
+    ],
+    "names": [],
+    "file": "onboarding.variables.css"
+}
