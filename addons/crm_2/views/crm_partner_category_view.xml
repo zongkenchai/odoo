@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_crm2_partner_category_form" model="ir.ui.view">
+        <field name="name">crm2.partner_category.form</field>
+        <field name="model">crm2.partner_category</field>
+        <field name="arch" type='xml'>
+            <form>
+                <sheet>
+                    <group>
+                        <field name='category_name'/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_crm2_partner_category_tree" model="ir.ui.view">
+        <field name="name">crm2.partner_category.tree</field>
+        <field name="model">crm2.partner_category</field>
+        <field name="arch" type='xml'>
+            <tree string='partner_category' sample='1' multi_edit='1'>
+                <field name='id'/>
+                <field name='category_name'/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="action_crm2_partner_category" model="ir.actions.act_window">
+        <field name="name">Partner Category</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">crm2.partner_category</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id = 'menu_partner_category'
+        name = "Partner Category"
+        parent = 'menu_dimension_table'
+        action = 'action_crm2_partner_category'
+        sequence="10"/>
+</odoo>

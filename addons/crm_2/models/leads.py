@@ -2,27 +2,68 @@
 
 from odoo import api, fields, models, _
 from odoo.exceptions import ValidationError
-
+import pendulum
 
 class Leads(models.Model):
     _name = "crm2.leads"
-    _description = "CRM Testing"
+    _description = "Leads"
     _order = "id desc"
     _rec_name = 'leads_name_1'
+    _inherit = ['mail.thread']
+           
+    leads_name_1 = fields.Char(string = 'Partner Name 1', required = True, tracking = True)
+    leads_name_2 = fields.Char(string = 'Partner Name 2', tracking = True)
+    affiliate_id = fields.Integer(string = 'Partner ID', tracking = True)
     
-    leads_name_1 = fields.Char(string = 'Partner Name 1', required = True)
-    leads_name_2 = fields.Char(string = 'Partner Name 2')
-    affiliate_id = fields.Integer(string = 'Partner ID')
-    acq_manager = fields.Selection([
-            ('louise', 'Loise'), ('ken', 'Ken'), ('test', 'Test')
-        ], required = True, tracking = True, string = 'ACQ Manager')
+    fk_acquisition_manager = fields.Many2one('crm2.acquisition_manager', string = 'Acquisition Manager', required = True, tracking = True)
+    fk_account_manager = fields.Many2one('crm2.account_manager', string = 'Account Manager', tracking = True)
+    fk_country = fields.Many2one('crm2.country', string = 'Country', required = True, tracking = True)
+    fk_partner_category = fields.Many2one('crm2.partner_category', string = 'Partner Category', required = True, tracking = True)
+    fk_partner_type = fields.Many2one('crm2.partner_type', string = 'Partner Type', required = True, tracking = True)
+    status = fields.Selection([
+        ('lead', '1. Lead'), ('follow_up', '2. Follow Up'), ('conversation', '3. Conversation'),
+        ('sign_up', '4. Sign Up'), ('kick_off', '5. Kick Off'), ('rejected', '6. Rejected')
+    ], required = True, default = 'lead', tracking = True)
+    
+    status_start_date = fields.Datetime(string = 'Status Start Date', readonly = True)
+    @api.model
+    def create(self, vals):
+        vals['status_start_date'] = self.env.cr.now()
+        res = super(Leads, self).create(vals)
+        return res
     
     
-    partner_country = fields.Selection([
-            ('malaysia', 'Malaysia'), ('singapore', 'Singapore'), ('indonesia', 'Indonesia'),
-            ('thailand', 'Thailand'), ('philippines', 'Philippines'), ('vietnam', 'Vietnam'),
-            ('others', 'Others')
-        ], required = True, tracking = True, string = 'Partner Country')
+    @api.onchange('status')
+    def _compute_custom(self):
+        if self._origin.status:
+            print(self.env.cr.now(), self.status_start_date)
+            prev_status = self._origin.status
+            new_status = self.status
+            prev_status_start_date = self.status_start_date
+            self.status_start_date = self.env.cr.now()
+            time_difference_in_seconds = ((self.status_start_date - prev_status_start_date).total_seconds())
+            time_difference_in_minutes = time_difference_in_seconds/60
+            time_difference_in_hours = time_difference_in_minutes/60
+            time_difference_in_days = time_difference_in_hours/24
+            
+
+
+        # print(self.status.__dir__())
+        # for rec in self:
+        #     print(rec.status)
+        #     print(rec.__dict__())
+        # print(self.__dir__())
+        
+    # acq_manager = fields.Selection([
+    #         ('louise', 'Loise'), ('ken', 'Ken'), ('test', 'Test')
+    #     ], required = True, tracking = True, string = 'ACQ Manager')
+    
+    
+    # partner_country = fields.Selection([
+    #         ('malaysia', 'Malaysia'), ('singapore', 'Singapore'), ('indonesia', 'Indonesia'),
+    #         ('thailand', 'Thailand'), ('philippines', 'Philippines'), ('vietnam', 'Vietnam'),
+    #         ('others', 'Others')
+    #     ], required = True, tracking = True, string = 'Partner Country')
     
     
     # @api.model

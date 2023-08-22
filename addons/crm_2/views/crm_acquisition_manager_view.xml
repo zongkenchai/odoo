@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-
     <record id="view_crm2_acquisition_manager_form" model="ir.ui.view">
         <field name="name">crm2.acquisition_manager.form</field>
         <field name="model">crm2.acquisition_manager</field>
@@ -23,6 +22,7 @@
         <field name="model">crm2.acquisition_manager</field>
         <field name="arch" type='xml'>
             <tree string='Acquisition Manager' sample='1' multi_edit='1'>
+                <field name='id'/>
                 <field name='first_name'/>
                 <field name='last_name'/>
                 <field name='full_name'/>
@@ -40,7 +40,7 @@
 
     <menuitem id = 'menu_acquisition_manager'
         name = "Acquisition Manager"
-        parent = 'menu_fact_table'
+        parent = 'menu_dimension_table'
         action = 'action_crm2_acquisition_manager'
         sequence="10"/>
 </odoo>

@@ -6,15 +6,26 @@
         <field name="model">crm2.leads</field>
         <field name="arch" type='xml'>
             <form>
+                <header>
+                    <field name="status" widget="statusbar" options="{'clickable': '1', 'fold_field': 'fold'}"/>
+                </header>
                 <sheet>
                     <group>
-                        <field name='leads_name_1'/>
-                        <field name='leads_name_2'/>
-                        <field name='affiliate_id'/>
-                        <field name='acq_manager'/>
-                        <field name='partner_country'/>
+                        <field name='leads_name_1' placeholder='Individual Name'/>
+                        <field name='leads_name_2' placeholder='Company Name'/>
+                        <field name='affiliate_id' placeholder='1234'/>
+                        <field name='fk_acquisition_manager'/>
+                        <field name='fk_account_manager'/>
+                        <field name='fk_country'/>
+                        <field name='fk_partner_category'/>
+                        <field name='fk_partner_type'/>
+                        <field name='status'/>
                     </group>
                 </sheet>
+                <div class="oe_chatter">
+                        <field name="message_follower_ids"/>
+                        <field name="message_ids" options="{'post_refresh': 'recipients'}"/>
+                </div>
             </form>
         </field>
     </record>
@@ -27,11 +38,49 @@
                 <field name='leads_name_1'/>
                 <field name='leads_name_2'/>
                 <field name='affiliate_id'/>
-                <field name='acq_manager'/>
-                <field name='partner_country'/>
+                <field name='fk_acquisition_manager'/>
+                <field name='fk_account_manager'/>
+                <field name='fk_country'/>
+                <field name='fk_partner_category'/>
+                <field name='fk_partner_type'/>
+                <field name='status'/>
             </tree>
         </field>
     </record>
+
+    <record id="crm2_leads_search" model="ir.ui.view">
+        <field name="name">crm2.leads.search</field>
+        <field name="model">crm2.leads</field>
+        <field name="arch" type="xml">
+            <search string="Search Leads">
+                <field name="leads_name_1"/>
+                <field name="leads_name_2"/>
+                <field name="affiliate_id"/>
+                <field name="fk_acquisition_manager"/>
+                <field name="fk_account_manager"/>
+                <field name="fk_country"/>
+                <field name="fk_partner_category"/>
+                <field name="fk_partner_type"/>
+                <field name="status"/>
+                <separator/>
+                <filter string="Malaysia" name="malaysia" domain="[('fk_country', '=', 'Malaysia')]"/>
+                <filter string="Indonesia" name="indonesia" domain="[('fk_country', '=', 'Indonesia')]"/>
+                <filter string="Thailand" name="thailand" domain="[('fk_country', '=', 'Thailand')]"/>
+                <filter string="Philippines" name="philippines" domain="[('fk_country', '=', 'Philippines')]"/>
+                <filter string="Vietnam" name="vietnam" domain="[('fk_country', '=', 'Vietnam')]"/>
+                <filter string="Others" name="others" domain="[('fk_country', '=', 'Others')]"/>
+                <separator/>
+                <group expand="1" string="Group By">
+                    <filter string="Acquisition Manager" name="fk_acquisition_manager" context="{'group_by':'fk_acquisition_manager'}"/>
+                    <filter string="Account Manager" name="fk_account_manager" context="{'group_by':'fk_account_manager'}"/>
+                    <filter string="Country" name="fk_country" context="{'group_by':'fk_country'}"/>
+                    <filter string="Partner Category" name="fk_partner_category" context="{'group_by':'fk_partner_category'}"/>
+                    <filter string="Partner Type" name="fk_partner_type" context="{'group_by':'fk_partner_type'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
 
     <record id="action_crm2_leads" model="ir.actions.act_window">
         <field name="name">Leads Opportunity</field>

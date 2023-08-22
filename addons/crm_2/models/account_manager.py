@@ -7,13 +7,18 @@ from odoo.exceptions import ValidationError
 class AccountManager(models.Model):
     _name = "crm2.account_manager"
     _description = "Account Manager"
-    _order = "id desc"
+    _order = "id asc"
     _rec_name = 'full_name'
 
     first_name = fields.Char(string = 'First Name', required = True)
     last_name = fields.Char(string = 'Last Name')
     full_name = fields.Char(compute = '_compute_full_name')
     is_active = fields.Boolean(default = True)
+    _sql_constraints = [
+                        ('field_unique', 
+                        'unique(full_name)',
+                        'Choose another value - it has to be unique!')
+    ]
     
     @api.depends('first_name', 'last_name')
     def _compute_full_name(self):

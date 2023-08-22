@@ -7,9 +7,13 @@ from odoo.exceptions import ValidationError
 class AcquisitionManager(models.Model):
     _name = "crm2.acquisition_manager"
     _description = "Acquisition Manager"
-    _order = "id desc"
+    _order = "id asc"
     _rec_name = 'full_name'
-
+    _sql_constraints = [
+                        ('field_unique', 
+                        'unique(full_name)',
+                        'Choose another value - it has to be unique!')
+    ]
     first_name = fields.Char(string = 'First Name', required = True)
     last_name = fields.Char(string = 'Last Name')
     full_name = fields.Char(compute = '_compute_full_name')

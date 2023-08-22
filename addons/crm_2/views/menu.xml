@@ -9,6 +9,11 @@
         parent = 'menu_crm_2_root'
         sequence="10"/>
 
+    <menuitem id = 'menu_dimension_table'
+        name = "Foreign Tables"
+        parent = 'menu_crm_2_root'
+        sequence="10"/>
+
     <menuitem id = 'menu_leads'
         name = "Leads"
         parent = 'menu_fact_table'
@@ -16,12 +21,27 @@
 
     <menuitem id = 'menu_account_manager'
         name = "Account Manager"
-        parent = 'menu_fact_table'
+        parent = 'menu_dimension_table'
         sequence="10"/>
         
     <menuitem id = 'menu_acquisition_manager'
         name = "Acquisition Manager"
-        parent = 'menu_fact_table'
+        parent = 'menu_dimension_table'
+        sequence="10"/>
+
+    <menuitem id = 'menu_country'
+        name = "Country"
+        parent = 'menu_dimension_table'
+        sequence="10"/>
+
+    <menuitem id = 'menu_partner_category'
+        name = "Partner Category"
+        parent = 'menu_dimension_table'
+        sequence="10"/>
+
+    <menuitem id = 'menu_partner_type'
+        name = "Partner Type"
+        parent = 'menu_dimension_table'
         sequence="10"/>
 
     <!-- <menuitem id = 'menu_partner_category'
